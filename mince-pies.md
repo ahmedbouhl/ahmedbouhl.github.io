@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Mince Pies
+title:  من حكايات حارتنا لنجيب محفوظ
 image: http://farm1.staticflickr.com/155/346461113_8852803073_q.jpg
 recipe-attribution: wikibooks
 recipe-attribution-link: http://en.wikibooks.org/wiki/Cookbook:Mince_pie
@@ -8,16 +8,14 @@ image-attribution: wasabicube
 image-attribution-link: http://www.flickr.com/photos/wasabicube/346461113/
 ---
 
-## Ingredients
+## الحكاية رقم ٢٠ 
 
-* [Shortcrust pastry](shortcrust-pastry.html)
-* [Mincemeat](mincemeat.html)
-* Icing sugar (to dust)
-
-## Method
-
-1. Line greased tartlet pans with shortcrust pastry circlets.
-2. Spoon heaped teaspoons of mince into each pie
-3. Top the tartlets with slightly smaller circles of pastry, preferably cut with a fluted cutter
-4. Bake until golden brown.
-5. Just before serving, dust pies with a light sprinkling of icing sugar.
+يحيى مدكور أمهر لاعب كرة في مدرستنا ، وصديقي المفضل في المدرسة الابتدائية٠
+أجده يوما يقرأ كتابا في الفسحة فأسأله ٬
+ماهذا ؟
+ـ ابن جونسون ٠٠ الحلقة الأولى من مسلسلة بوليسيةجديدة٠
+ويعيرني الكتاب بعد فراغه فأقرأه بسعادة لم أجد مثلها من قبل٠
+وأواظب على قراءة السلسلة ، ثم أنتقل من سلسلة إلى أخرى ،
+و من كتاب إلى آخر ، ثم أدمن القراءة ٠
+وأصير مع الزمن بطلا من أبطال القراءة ، أما صديقي فيهجرها سريعا ثم يتربع على عرش الكرة.
+##من حكايات حارتنا لنجيب محفوظ

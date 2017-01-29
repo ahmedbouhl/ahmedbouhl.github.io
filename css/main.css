@@ -307,8 +307,8 @@ main {
 
     @media (min-width:40em) {
     main {
-	    float: right;
-	    width: 70%;
+	    float: left;
+	    width: 40%;
 	    clear: none;
         }
     }
