@@ -300,15 +300,15 @@ nav ul {
 
 main {
 	padding: 2em 4% 2em;
-	float: left;
+	float: right;
 	width: 100%;
 	margin-bottom: 0;
     }
 
     @media (min-width:40em) {
     main {
-	    float: left;
-	    width: 40%;
+	    float: right;
+	    width: 70%;
 	    clear: none;
         }
     }
@@ -351,22 +351,9 @@ main {
 	right: 0;
 	}
 
-.img-wrapper img {
-    display: block;
-    height: 150px;
-    width: 150px;
-    }
 
-.img-wrapper:before {
-	content: " ";
-	display: block;
-	position: absolute;
-	top: 0;
-	right: 0;
-	border: solid 75px;
-	border-color: transparent transparent #b3002d #b3002d;
-	box-shadow: 3px 2px 2px rgba(0,0,0,0.4);
-    }
+
+
 
 main .img-wrapper {
 	display: none;
@@ -375,6 +362,7 @@ main .img-wrapper {
     @media (min-width: 40em) {
     main .img-wrapper {
     	display: block;
+        width: 25%;
         }
     }
 
