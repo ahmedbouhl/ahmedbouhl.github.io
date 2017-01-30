@@ -1,6 +1,6 @@
 ---
 layout: recipe
 title: النوارس
-image: 35.jpg
+image: css/35.jpg
 ---
 
