@@ -362,7 +362,7 @@ main .img-wrapper {
     @media (min-width: 40em) {
     main .img-wrapper {
     	display: block;
-        width: 25%;
+        width: 32%
         }
     }
 
