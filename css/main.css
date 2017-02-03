@@ -347,7 +347,7 @@ main {
 .img-wrapper {
 	margin: 0;
 	position: absolute;
-	top: 0;
+	top: 1;
 	right: 0;
 	}
 
@@ -362,7 +362,8 @@ main .img-wrapper {
     @media (min-width: 40em) {
     main .img-wrapper {
     	display: block;
-        width: 32%
+        width: 32%;
+       
         }
     }
 
