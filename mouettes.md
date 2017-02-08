@@ -2,10 +2,6 @@
 layout: recipe
 title: النوارس
 image: css/mouette.jpeg
-recipe-attribution: wikibooks
-recipe-attribution-link: http://en.wikibooks.org/wiki/Cookbook:Mincemeat
-image-attribution: gabludlow
-image-attribution-link: http://www.flickr.com/photos/gabludlow/11036090333/
 ---
 
 في ميناء مدينة الصويرة مجموعات كبيرة من طيور النورس    
@@ -20,3 +16,7 @@ image-attribution-link: http://www.flickr.com/photos/gabludlow/11036090333/
 ان كان رضاكم في سهري
 فسلام الله على وسني
 (منقول)
+##---
+
+برواتب السنين تبني منزلا ً في "الدنيابرواتب السنين تبني منزلا في الدنيا        
+وبالسنن الرواتب يبني الله لك منزلا ً في  الجنة
