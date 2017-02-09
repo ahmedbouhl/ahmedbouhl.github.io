@@ -2,10 +2,7 @@
 layout: recipe
 title: أبيات
 image: css/Mosquee .jpg
-recipe-attribution: wikihow
-recipe-attribution-link: http://www.wikihow.com/Make-Orange-Brandy-Butter
-image-attribution: Matt Biddulph
-image-attribution-link: http://www.flickr.com/photos/mbiddulph/2133911076/
+
 ---
 
  
@@ -28,7 +25,8 @@ image-attribution-link: http://www.flickr.com/photos/mbiddulph/2133911076/
 ان التي تخطب غرارة *** قريبة العرس من المأتم
 ##---
 وما كنت ممن يدخل العشق قلبه. ولكن من يبصر جفونك يعشق
-	
+##---
+إن مشقة الطاعة تذهب ويبقى ثوابها وإن لذة المعاصي تذهب ويبقى عقابها
 	
 
 	
