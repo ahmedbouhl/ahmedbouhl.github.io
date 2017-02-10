@@ -1,4 +1,8 @@
 name: Christmas Recipes
-markdown: redcarpet
-pygments: null
-
+markdown: rdiscount
+rdiscount:
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+highlighter: pygments # default python pygments have been replaced by pygments.rb
