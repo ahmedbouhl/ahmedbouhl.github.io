@@ -2,6 +2,8 @@
 layout: recipe
 title: عندما كنت صغيرا 
 image: css/Cruz-Herrera-Jeunes Marocaines-3.jpg
+image: css/ecole.jpg
+
 ---
 
  
