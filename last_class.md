@@ -1,35 +1,35 @@
 2. The Last Class—The Story of a Little Alsatian
 
-I WAS very late for school that morning, and I was terribly afraid of being scolded, especially as Monsieur Hamel had told us that he should examine us on participles,
-and I did not know the first thing about them. For a moment I thought of staying away from school and wandering about the fields. It was such a warm, lovely day.
-I could hear the blackbirds whistling on the edge of the wood, and in the Rippert field, behind the sawmill, the Prussians going through their drill.
-All that was much more tempting to me than the rules concerning participles; but I had the strength to resist, and I ran as fast as I could to school.
-As I passed the mayor’s office, I saw that there were people gathered about the little board on which notices were posted. For two years all our bad news had come from that board
+ 	I WAS very late for school that morning, and I was terribly afraid of being scolded, especially as Monsieur Hamel had told us        	 that he should examine us on participles,
+  and I did not know the first thing about them. For a moment I thought of staying away from school and wandering about the  				 	 fields. It was such a warm, lovely day.
+  I could hear the blackbirds whistling on the edge of the wood, and in the Rippert field, behind the sawmill, the Prussians  					going through their drill.
+  All that was much more tempting to me than the rules concerning participles; but I had the strength to resist, and I ran as  				fast as I could to school.
+		As I passed the mayor’s office, I saw that there were people gathered about the little board on which notices were posted. For 		two years all our bad news had come from that board
 
-Ce matin-là, j’étais très en retard pour aller à l’école, et j’avais grand-peur d’être grondé, d’autant que M. Hamel nous avait dit qu’il nous interrogerait sur les participes,et je n’en savais pas le premier mot. Un moment l’idée me vint de manquer la classe et de prendre ma course à travers champs. Le temps était si chaud, si clair !
-On entendait les merles siffler à la lisière du bois, et dans le pré Rippert, derrière la scierie, les Prussiens qui faisaient l’exercice. Tout cela me tentait bien plus que la règle 
-des participes ; mais j’eus la force de résister, et je courus bien vite vers l’école.
-En passant devant la mairie, je vis qu’il y avait du monde arrêté près du petit grillage aux affiches. Depuis deux ans, c’est de là que nous sont venues toutes les mauvaises nouvelles,
+	
+	 Ce matin-là, j’étais très en retard pour aller à l’école, et j’avais grand-peur d’être grondé, d’autant que M. Hamel nous avait  		dit qu’il nous interrogerait sur les participes,et je n’en savais pas le premier mot. Un moment l’idée me vint de manquer la 	     		classe et de prendre ma course à travers champs. Le temps était si chaud, si clair !
+  On entendait les merles siffler à la lisière du bois, et dans le pré Rippert, derrière la scierie, les Prussiens qui faisaient  		l’exercice. Tout cela me tentait bien plus que la règle 
+		des participes ; mais j’eus la force de résister, et je courus bien vite vers l’école.
+		En passant devant la mairie, je vis qu’il y avait du monde arrêté près du petit grillage aux affiches. Depuis deux ans, c’est    		de là que nous sont venues toutes les mauvaises nouvelles,
 
-—battles lost, conscriptions, orders from headquarters; and I thought without stopping: “What can it be now?”
- les batailles perdues, les réquisitions, les ordres de la commandature ; et je pensai sans m’arrêter :« Qu’est-ce qu’il y a encore ? »
 
-Then, as I ran across the square, Wachter the blacksmith, who stood there with his apprentice, reading the placard, called out to me:
-Alors, comme je traversais la place en courant, le forgeron Wachter, qui était là avec son apprenti en train de lire l’affiche, me cria :
+  —battles lost, conscriptions, orders from headquarters; and I thought without stopping: “What can it be now?”
+  Then, as I ran across the square, Wachter the blacksmith, who stood there with his apprentice, reading the placard, called out   		to me:
+		“Don’t hurry so, my boy; you’ll get to your school soon enough!” I thought that he was making fun of me, and I ran into 	 		  			Monsieur Hamel’s little yard all out of breath.
+		Usually, at the beginning of school, there was a great uproar which could be heard in the street, desks opening and closing,  			lessons repeated aloud in unison,
+		with our ears stuffed in order to learn quicker, and the teacher’s stout ruler beating on the desk: “A little more quiet!”
+		I counted on all this noise to reach my bench unnoticed; but as it happened, that day everything was quiet, like a Sunday  				   		morning. 
+		
+		
+		les batailles perdues, les réquisitions, les ordres de la commandature ; et je pensai sans m’arrêter :« Qu’est-ce qu’il y a   			encore ? »
+		Alors, comme je traversais la place en courant, le forgeron Wachter, qui était là avec son apprenti en train de lire l’affiche, 		me cria :
+  « Ne te dépêche pas tant, petit ; tu y arriveras toujours assez tôt à ton école ! » Je crus qu’il se moquait de moi, et  				 			j’entrai tout essoufflé dans la petite cour de M. Hamel.
+  D’ordinaire, au commencement de la classe, il se faisait un grand tapage qu’on entendait jusque dans la rue : les pupitres   				ouverts, fermés, les leçons qu’on répétait très haut 
+  tous ensemble en se bouchant les oreilles pour mieux apprendre, et la grosse règle du maître qui tapait sur les tables : « Un  		peu de silence ! »
+		Je comptais sur tout ce train pour gagner mon banc sans être vu ; mais, justement, ce jour-là,tout était tranquille, comme un  		matin de dimanche. 
 
-“Don’t hurry so, my boy; you’ll get to your school soon enough!” I thought that he was making fun of me, and I ran into Monsieur Hamel’s little yard all out of breath.
-« Ne te dépêche pas tant, petit ; tu y arriveras toujours assez tôt à ton école ! » Je crus qu’il se moquait de moi, et j’entrai tout essoufflé dans la petite cour de M. Hamel.
-
-Usually, at the beginning of school, there was a great uproar which could be heard in the street, desks opening and closing, lessons repeated aloud in unison,
-D’ordinaire, au commencement de la classe, il se faisait un grand tapage qu’on entendait jusque dans la rue : les pupitres ouverts, fermés, les leçons qu’on répétait très haut 
-
- with our ears stuffed in order to learn quicker, and the teacher’s stout ruler beating on the desk: “A little more quiet!”
-tous ensemble en se bouchant les oreilles pour mieux apprendre, et la grosse règle du maître qui tapait sur les tables : « Un peu de silence ! »
-
-I counted on all this noise to reach my bench unnoticed; but as it happened, that day everything was quiet, like a Sunday morning. 
-Je comptais sur tout ce train pour gagner mon banc sans être vu ; mais, justement, ce jour-là,tout était tranquille, comme un matin de dimanche. 
-
-Through the open window I saw my comrades already in their places, and Monsieur Hamel walking back and forth with the terrible iron ruler under his arm. 
+ 
+	Through the open window I saw my comrades already in their places, and Monsieur Hamel walking back and forth with the terrible iron ruler under his arm. 
 Par la fenêtre ouverte, je voyais mes camarades déjà rangés à leurs places, et M. Hamel, qui passait et repassait avec la terrible règle en fer sous le bras. 
 
 I had no open the door and enter, in the midst of that perfect silence. You can imagine whether I blushed and whether I was afraid!
