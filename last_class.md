@@ -1,6 +1,6 @@
 2. The Last Class—The Story of a Little Alsatian
 
- 	I WAS very late for school that morning, and I was terribly afraid of being scolded, especially as Monsieur Hamel had told us        	 that he should examine us on participles,
+ 	I WAS very late for school that morning, and I was terribly afraid of being scolded, especially as Monsieur Hamel had  told us that he should examine us on participles,
   and I did not know the first thing about them. For a moment I thought of staying away from school and wandering about the  				 	 fields. It was such a warm, lovely day.
   I could hear the blackbirds whistling on the edge of the wood, and in the Rippert field, behind the sawmill, the Prussians  					going through their drill.
   All that was much more tempting to me than the rules concerning participles; but I had the strength to resist, and I ran as  				fast as I could to school.
