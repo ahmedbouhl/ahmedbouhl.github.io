@@ -1,18 +1,14 @@
 2. The Last Class—The Story of a Little Alsatian
 
 I WAS very late for school that morning, and I was terribly afraid of being scolded, especially as Monsieur Hamel had told us that he should examine us on participles,
-Ce matin-là, j’étais très en retard pour aller à l’école, et j’avais grand-peur d’être grondé, d’autant que M. Hamel nous avait dit qu’il nous interrogerait sur les participes,
-
- and I did not know the first thing about them. For a moment I thought of staying away from school and wandering about the fields. It was such a warm, lovely day.
- et je n’en savais pas le premier mot. Un moment l’idée me vint de manquer la classe et de prendre ma course à travers champs. Le temps était si chaud, si clair !
-
- I could hear the blackbirds whistling on the edge of the wood, and in the Rippert field, behind the sawmill, the Prussians going through their drill. 
-On entendait les merles siffler à la lisière du bois, et dans le pré Rippert, derrière la scierie, les Prussiens qui faisaient l’exercice. Tout cela me tentait bien plus que la règle 
-
+and I did not know the first thing about them. For a moment I thought of staying away from school and wandering about the fields. It was such a warm, lovely day.
+I could hear the blackbirds whistling on the edge of the wood, and in the Rippert field, behind the sawmill, the Prussians going through their drill.
 All that was much more tempting to me than the rules concerning participles; but I had the strength to resist, and I ran as fast as I could to school.
-des participes ; mais j’eus la force de résister, et je courus bien vite vers l’école.
-
 As I passed the mayor’s office, I saw that there were people gathered about the little board on which notices were posted. For two years all our bad news had come from that board
+
+Ce matin-là, j’étais très en retard pour aller à l’école, et j’avais grand-peur d’être grondé, d’autant que M. Hamel nous avait dit qu’il nous interrogerait sur les participes,et je n’en savais pas le premier mot. Un moment l’idée me vint de manquer la classe et de prendre ma course à travers champs. Le temps était si chaud, si clair !
+On entendait les merles siffler à la lisière du bois, et dans le pré Rippert, derrière la scierie, les Prussiens qui faisaient l’exercice. Tout cela me tentait bien plus que la règle 
+des participes ; mais j’eus la force de résister, et je courus bien vite vers l’école.
 En passant devant la mairie, je vis qu’il y avait du monde arrêté près du petit grillage aux affiches. Depuis deux ans, c’est de là que nous sont venues toutes les mauvaises nouvelles,
 
 —battles lost, conscriptions, orders from headquarters; and I thought without stopping: “What can it be now?”
