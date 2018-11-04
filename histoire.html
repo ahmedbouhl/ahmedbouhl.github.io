@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <meta charset="utf-8"/>
+<script>
+lishow=["#show1","#show2","#show3","#show4","#show5","#show6","#show7","#show8","#show9","#show10","#show11","#show12"]
+listp=["#p1","#p2","#p3","#p4","#p5","#p6","#p7","#p8","#p9","#p10","#p11","#p12"]
+function load(){
+$("p").hide();$("img").hide();
+}
+function routine(s,p,img,rang){
+    if (s%2==0){$(p).hide();$(img).hide();viewTitre();}
+     else{
+    $(p).show();$(img).show();viewContenu(rang);}
+     }
+function viewContenu(number){
+   i=0;
+   while (i < 13) {
+   if (number != i) {$(lishow[i]).hide();$(listp[i]).hide();}
+    i=i+1;
+    }
+   }
+function viewTitre(){
+    i=0;
+    while (i < 13) {
+       $(lishow[i]).show();
+       i=i+1
+       }
+     }
+
+s1=1;s2=1;s3=1;s4=1;s5=1;s6=1;s7=1;s8=1;s9=1;s10=1;s11=1;s12=1;
+$(document).ready(function(){
+    $("#show1").click(function(){ routine(s1,"#p1","img",0);s1=s1+1;});
+    $("#show2").click(function(){ routine(s2,"#p2","",1);s2=s2+1;});
+    $("#show3").click(function(){ routine(s3,"#p3","",2);s3=s3+1;});
+    $("#show4").click(function(){ routine(s4,"#p4","",3);s4=s4+1;});
+    $("#show5").click(function(){ routine(s5,"#p5","",4);s5=s5+1;});
+    $("#show6").click(function(){ routine(s6,"#p6","",5);s6=s6+1;});
+    $("#show7").click(function(){ routine(s7,"#p7","",6);s7=s7+1;});
+    $("#show8").click(function(){ routine(s8,"#p8","",7);s8=s8+1;});
+    $("#show9").click(function(){ routine(s9,"#p9","",8);s9=s9+1;});
+    $("#show10").click(function(){ routine(s10,"#p10","",9);s10=s10+1;});
+    $("#show11").click(function(){ routine(s11,"#p11","",10);s11=s11+1;});
+    $("#show12").click(function(){ routine(s12,"#p12","",11);s12=s12+1;});
+}); 
+i=0.005;
+r=1/(1+i);
+n=120;
+l=100000;
+p=l*(1-r)/(r-Math.pow(r, n+1));
+console.log("chaque mois tu paye:"+p);
+console.log("donc tu paiera en total) :"+p*n);
+</script>
+<style>
+            span{
+              color: blue;
+            }
+              #aa
+            { font-size:120%;
+              color: green;
+            }
+</style>
+</head>
+<body bgcolor="#E6E6FA" style ="font-size:102%;" onload="load()">
+ cliquer sur le titre pour voir le contenu , et cliquer une seconde fois pour le cacher.
+ <h3 id="show1">An Old Man Lived in the Village</h3>
+ <p id ="p1">
+An old man lived in the village. He was one of the most unfortunate people in the world. The whole village was tired of him; he was      always gloomy, </br></br>he constantly complained and was always in a bad mood.
+The longer he lived, the more bile he was becoming and the more poisonous were his words.</br></br> People avoided him, because his misfortune became contagious. It was even unnatural and insulting to be happy next to him.He created the feeling of </br></br>unhappiness in others.But one day, when he turned eighty years old, an incredible thing happened. Instantly everyone started hearing the rumour: </br><br>"An Old Man is happy today, he doesn't complain about anything, smiles, and even his face is freshened up."The whole village gathered together. </br></br>The old man was asked:Villager: What happened to you?"Nothing special. Eighty years I've been chasing happiness, and it was useless.</br></br> And then I decided to live without happiness and just enjoy life. That's why I'm happy now."</br></br>
+Moral of the story: <span id="aa" >Don't chase happiness. Enjoy your life.</span>
+</p>
+<img src="/home/ahmed/Images/old.jpg"></img>
+<h3 id="show2">The Wise Man</h3>
+<p id ="p2">
+People have been coming to the wise man, complaining about the same problems every time. One day he told them a joke and everyone roared in laughter.<br><br>After a couple of minutes, he told them the same joke and only a few of them smiled.
+When he told the same joke for the third time no one laughed <br><br>anymore.
+The wise man smiled and said:"You can't laugh at the same joke over and over. So why are you always crying about the same problem?"</br></br>
+Moral of the story:<span> Worrying won't solve your problems, it’ll just waste your time and energy.</span><br><br>
+
+A salt seller used to carry the salt bag on his donkey to the market every day.On the way they had to cross a stream. One day the donkey suddenly tumbled <br><br>down the stream and the salt bag also fell into the water. 
+The salt dissolved in the water and hence the bag became very light to carry. The donkey was <br><br>happy.
+Then the donkey started to play the same trick every day. The salt seller came to understand the trick and decided to teach a lesson to it. 
+The next <br><br>day he loaded a cotton bag on the donkey. Again it played the same trick hoping that the cotton bag would be still become lighter.But the dampened <br><br>cotton became very heavy to carry and the donkey suffered. It learnt a lesson. It didn't play the trick anymore after that day, and the seller was happy.</br></br>
+Moral of the story:<span id="aa"> Luck won't favor always.</span >
+</p>
+<h3 id="show3">The Fox & The Grapes</h3>
+<p id="p3">
+One afternoon a fox was walking through the forest and spotted a bunch of grapes hanging from over a lofty branch.“Just the thing to quench 
+my thirst,</br></br>” he thought.Taking a few steps back, the fox jumped and just missed the hanging grapes. Again the fox took a few paces back and tried to reach them but </br></br>still failed.Finally, giving up, the fox turned up his nose and said, “They’re probably sour anyway,” and proceeded to walk away.</br></br>
+Moral of the story: <span id="aa">It’s easy to despise what you can’t have.</span>
+</p>
+<h3 id="show4">An Angel in Disguise</h3>
+<p id="p4">
+<span title="Oisiveté">Idleness</span>,vice,and <span title="إفراط">intemperance </span>had done their miserable work, and the dead mother lay cold and still amid her <span title="misérable" >wretched </span>children. She had fallen upon .</br></br>the threshold of her own door in a drunken fit, and died in the presence of her frightened little ones.Death touches the <span title ="source">spring </span>of our common humanity.</br></br> This woman had been <span title="méprisée">despised</span>,<span title="se moquer de">scoffed at</span>, and angrily denounced by nearly every man, woman, and child in the village; but now, as the fact of her death </br></br>was passed from lip to lip, in <span title= "atténués">subdued</span> tones,
+pity took the place of anger, and sorrow of denunciation. Neighbors went hastily to the old <span title="cabane en ruines">tumble-down hut</span>,</br></br> in which she had secured little more than a place of shelter from summer heats and winter cold: some with grave-clothes for a decent <span title="دفن">interment </span>of the </br></br>body; and some with food for the half-<span title="affamé">starving </span>children, three in number. Of these, John, the oldest, a boy of twelve, was a <span title="gros garcon">stout lad</span>, able to earn his living </br></br>with any farmer. Kate, between ten and eleven, was bright, active girl, out of whom somethingclever might be made, if in good hands; but poor little </br></br>Maggie, the youngest, was hopelessly diseased. Two years before a fall from a window had injured her <span title="colonne vertébrale">spine</span>, and she had  not been able to leave her bed </br></br>since, except when lifted in the arms of her mother.
+"What is to be done with the children?" That was the chief question now. The dead mother would go </br></br>underground, and be forever beyond all care or concern of the villagers.But the children must not be left to starve. After considering the matter, and </br></br>talking it over with his wife, farmer Jones said that he would take John, and do well by him, now that his mother was out of the way; and Mrs. Ellis, who </br></br>had been looking out for a bound girl, concluded that it would be charitable in her to make choice of Katy, 
+even though she was too young to be of much </br></br>use for several years."I could do much better, I know," said Mrs. Ellis; "but as no one seems inclined to take her, I must act from a sense of duty expect to </br></br>have trouble with the child; for she's an undisciplined thing--used to having her own way."But no one said "I'll take Maggie." Pitying glances were cast on </br></br>her <span title="blême">wan</span> and wasted form and thoughts were troubled  on her account. Mothers brought <span title="vêtements décollés">cast-off garments </span> and,removing her <span title="متسخة و خشنة">soiled and ragged </span> clothes,</br></br> dressed her in clean <span title="tenue">attire</span>. The sad eyes and patient face of the little one touched many hearts, and even knocked at them for entrance. But none opened to </br></br>take her in. Who wanted a <span title ="طريح الفراش">bed-ridden</span> child? "Take her to the <span title="hospice">poorhouse</span>," said a rough man, of whom the question "What's to be done with Maggie?" was </br></br>asked. "Nobody's going to be bothered with her." "The poorhouse is a sad place for a sick and helpless child," answered one."For your child or mine," said </br></br>the other, lightly speaking; "but for tis brat it will prove a blessed change, she will be kept clean, have healthy food, and be doctored, which is more than </br></br>can be said of her past condition."There was reason in that, but still it didn't satisfy. The day following the day of death was made the day of burial. A few </br></br>neighbors were at the miserable <span title="taudis">hovel</span>, but none followed dead cart as it bore the unhonored remains to its <span title="pauvre tombe">pauper grave</span>. Farmer Jones, after the <span title="cercueil">coffin </span></br></br>was taken out, placed John in his wagon and drove away, satisfied that he had done his part. Mrs. Ellis spoke to Kate with a hurried air, "<span title="dire">Bid </span>your sister </br></br>good by," and drew the tearful children apart ere scarcely their lips  had touched in a <span title="adieu en pleurant">sobbing farewell</span>. Hastily others went out, some glancing at Maggie,</br></br> and some resolutely refraining from a look,until all had gone. She was alone! Just beyond the threshold Joe Thompson, <span title="صانع العجلات">the wheelwright</span>, paused, and said </br></br>to <span title="le forgeron">the blacksmith</span>'s wife, who was hastening off with  the rest,-- "It's a cruel thing to leave her so." "Then take her to the poorhouse: she'll have to go there,"</br></br> answered the blacksmith's wife, <span title="jaillissant">springing away</span>, and leaving Joe behind.For a little while the man stood with a puzzled air; then he turned back, and went </br></br>into the hovel again. Maggie with painful effort, had raised herself to an upright position and was sitting on the bed, straining her eyes upon the door out of </br></br> which all had just departed, A vague terror had come into her thin white face."O, Mr. Thompson!" she cried out, catching her suspended breath, "don't</br></br> leave me here all alone!" Though <span title="rude">rough </span>in exterior, Joe Thompson, the wheelwright, had a heart, and it was very tender in some places. He liked children,</br></br> and was pleased to have them come to his shop, where <span title="le traîneau مزلجة">sleds </span>and wagons were made or mended for the village lads without a draft on their <span title="مكنوز">hoarded</span> </br></br>sixpences."No, dear," he answered, in a kind voice, going to the bed, and stooping down over the child, "You sha'n't be left here alone." Then he wrapped </br></br>her with the gentleness almost of a woman, in the clean bedclothes which some neighbor had brought; and, lifting her in his strong arms,<span title="emporter"> bore</span> her out into </br></br>the air and across the field that lay between the hovel and his home.Now, Joe Thompson's wife, who happened to be childless, was not a woman of saintly </br></br>temper, nor much given to <span title="abnégation نكران الذات">self-denial</span> for others' good, and Joe had <span title= "bien fondé">well-grounded</span> doubts touching the manner of greeting he should receive on his arrival.</br></br> Mrs. Thompson saw him approaching from the window, and with ruffling feathers met him a few <span title="le pas">paces</span> from the door, as he opened the garden gate, and </br></br>came in. He bore a precious burden, and he felt it to be so. As his arms held the sick child to his breast, a sphere of tenderness went out from her, and </br></br>penetrated his feelings. <span title="lien">A bond </span>had already corded itself around them both, and love was springing into life."What have you there?" sharply questioned</br></br> Mrs. Thompson.Joe, felt the child <span title="sursauter et rétrécir">start and shrink </span>against him. He did not reply, except by a look that was pleading and cautionary, that said, "Wait a </br></br>moment for explanations, and be gentle;"and, passing in, carried Maggie to the small chamber on the first floor, and laid her on a bed. Then, stepping back,</br></br> he shut the door, and stood face to face with his vinegar-tempered wife in the passage-way outside."You haven't brought home that sick brat!" Anger and </br></br>astonishment were in the tones of Mrs. Joe Thompson; her face was in a flame."I think women's hearts are sometimes very hard," said Joe. Usually Joe </br></br>Thompson got out of his wife's way, or kept rigidly silent and non-combative when she fired up on any 
+subject; it was with some surprise, therefore, that </br></br>she now encountered a firmly-set countenance and a resolute pair of eyes.
+"Women's hearts are not half so hard as men's!" Joe saw, by a quick intuition,</br></br> that his resolute bearing had impressed his wife and he answered quickly, and with real indignation, "Be that as it may, every woman at the funeral turned </br></br>her eyes steadily from the sick child's face, and when the cart went off with her dead mother, hurried away,and left her alone in that old hut, with the sun </br></br>not an hour in the sky." "Where were John and Kate?" asked Mrs. Thompson."Farmer Jones <span title="jeter">tossed </span>John into his wagon, and drove off. Katie went home </br></br>with Mrs. Ellis; but nobody wanted the poor sick one.</br></br> 'Send her to the poorhouse,' was the cry."</br></br>
+"Why didn't you let her go, then. What did you bring her here for?" </br></br>"She can't walk to the poorhouse," said Joe; "somebody's arms must carry her, and mine are strong enough for that task." </br></br>"Then why didn't you keep on? Why did you stop here?" demanded the wife.
+</br></br>"Because I'm not apt to go on fools' errands. The Guardians must first be seen, and a permit obtained."</br></br> There was no gain saying this."When will you see the Guardians?"was asked, with irrepressible impatience.</br></br>
+"Tomorrow."</br></br>"Why put it off till tomorrow? Go at once for the permit, and get the whole thing off of your hands to-night."</br></br>
+"Jane," said the wheelwright, with an impressiveness of tone that greatly subdued his wife, </br></br> "I read in the Bible sometimes, and find much said about little children. How the Savior <span title="réprimandé">rebuked </span> disciples who would not receive them; </br></br>how he took them up in his arms, and blessed them; and how he said that 'whosoever gave them even a cup of cold water should not go </br></br>unrewarded.' Now, it is a small thing for us to keep this poor motherless little one for a single night; to be kind to her for a single night;to make her life</br></br> comfortable for a single night."The voice of the strong, rough man shook, and he turned his head away, so that the <span title="humidité">moisture</span> in his eyes might not be seen.</br></br> Mrs. Thompson did not answer, but a soft feeling crept into her heart."Look at her kindly, Jane; speak to her kindly," said Joe. "Think of her dead mother,</br></br> and the loneliness, the pain, the sorrow that must be on all her coming life."The softness of his heart gave <span title="hors du commun">unwonted </span>eloquence to his lips. Mrs. Thompson </br></br>did not reply, but presently turned towards the little chamber where her husband had deposited Maggie; and, pushing open the door, went quietly in. Joe did </br></br>not follow; he saw that, her state had changed, and felt that it would be best to leave her alone with the child. So he went to his shop, which stood near the </br></br>house, and worked until <span title="sombre">dusky </span>evening released him from labor. A light shining through the little chamber windows was the first object that attracted Joe's </br></br>attention on turning towards the house:it was a good <span title="présage">omen</span>.The path led him by this windows and, when opposite,he could not help pausing to look in.</br></br> It was now dark enough outside to screen him from observation.Maggie lay, a little raised on the pillow with the lamp shining full upon her face. Mrs.</br></br>Thompson was sitting by the bed, talking to the child; but her back was towards the window,so that her countenance was not seen. From Maggie's face,</br></br> therefore, Joe must read the character of their <span title="rapports">intercourse</span>. He saw that her eyes were intently fixed upon his wife;that now and then a few words came, as </br></br>if in answers from her lips; that her expression was sad and tender; but he saw nothing of bitterness or pain. A deep-drawn breath was followed by one of </br></br>relief, as a weight lifted itself from his heart.On entering, Joe did not go immediately to the little chamber. His heavy <span title="le pas">tread</span> about the kitchen brought his </br></br>wife somewhat hurriedly from the room where she had been with Maggie. Joe thought it best not to refer to the child, nor to manifest any concern in </br></br>regard to her."How soon will supper be ready?" he asked.
+"Right soon," answered Mrs. Thompson,</br></br> beginning to bustle about. There was no <span title="قسوة">asperity </span>in her voice.
+After washing from his hands and face the dust and soil of work, Joe left the kitchen, and </br></br>went to the little bedroom. A pair of large bright eyes looked up at him from the snowy bed; looked at him tenderly, gratefully, pleadingly. How his heart </br></br>swelled in his bosom! With what a quicker motion came the heart-beats! Joe sat down, and now, for the first time, examining the thin frame carefully under </br></br>the lamp light, saw that it was an attractive face, and full of a childish sweetness which suffering had not been able to <span title="effacer">obliterate</span>.</br></br>
+"Your name is Maggie?" he said, as he sat down and took her soft little hand in his.</br></br>
+"Yes, sir." Her voice struck a <span title="وتر">chord </span>that <span title="frémir">quivered </span>in a low strain of music.</br></br>
+"Have you been sick long?"</br></br>
+"Yes, sir." What a sweet patience was in her tone!</br></br>
+"Has the doctor been to see you?"</br></br>
+"He used to come."</br></br>
+"But not lately?" "No, sir."</br></br>
+"Have you any pain?"</br></br>
+"Sometimes, but not now."</br></br>
+"When had you pain?"</br></br>
+"This morning my side ached, and my back hurt when you carried me."</br></br>
+"It hurts you to be lifted or moved about?"</br></br>
+"Yes, sir."</br></br>
+"Your side doesn't ache now?"</br></br>
+"No, sir."</br></br>
+"Does it ache a great deal?"</br></br>
+"Yes, sir; but it hasn't ached any since I've been on this soft bed."</br></br>
+"The soft bed feels good."</br></br>
+"O, yes, sir--so good!" What a satisfaction, mingled with gratitude, was in her voice!</br></br>
+"Supper is ready," said Mrs. Thompson, looking into the room a little while afterwards.</br></br>
+Joe glanced from his wife's face to that of Maggie; she understood him, and answered,--</br></br>
+"She can wait until we are done; then I will bring her somethings to eat." There was an effort at indifference on the part of Mrs. Thompson, but her </br></br>husband had seen her through the window, and understood that the coldness was <span title="متصنع">assumed</span>. Joe waited, after sitting down to the table, for his wife to </br></br>introduce the subject uppermost in both of their thoughts; but she kept silent on that theme, for many minutes, and he maintained a like reserve.</br></br> At last she said, abruptly,--"What are you going to do with that child?"</br></br>
+
+"I thought you understood me that she was to go to the poorhouse," replied Joe, as if surprised at her question.</br></br>
+
+Mrs.Thompson looked rather strangely at her husband for sonic moments,and then dropped her eyes.The subject was not again referred to during the meal.</br></br> At its close, Mrs. Thompson <span title="grillé une tranche">toasted a slice </span>of bread, and softened, it with milk and butter; adding to this a cup of tea, she took them into Maggie, and held </br></br>the small <span title="طبق">waiter</span>, on which she had placed them, while the hungry child ate with every sign of pleasure."Is it good?" asked Mrs. Thompson, seeing with </br></br>what a <span title="goût vif">keen relish</span> the food was taken.
+The child paused with the cup in her hand, and answered with a look of gratitude that awoke to new life old human </br></br>feelings which had been <span title="endormi">slumbering </span>in her heart for half a score of years.
+
+"We'll keep her a day or two longer;she is so weak and helpless," said Mrs.Joe </br></br>Thompson, in answer to her husband's remark, at breakfast-time on the next morning, that he must step down and see the Guardians of the Poor about </br></br>Maggie.
+
+"She'll be so much in your way," said Joe.
+
+"I sha'n't mind that for a day or two. Poor thing!"
+
+Joe did not see the Guardians of the Poor on that day,</br></br> on the next, nor on the day following. In fact, he never saw them at all on Maggie's account, for in less than a week Mrs. Joe Thompson would as soon  </br></br>leave thought of taking up her own <span title="demeure">abode </span>in the <span title="maison de charité" >almshouse </span>as sending Maggie there.
+
+What light and blessing did that sick and helpless child bring to the </br></br>home of Joe Thompson, the poor wheelwright! It had been dark, and cold, and miserable there for a long time just because his wife had nothing to love and </br></br>care for out of herself, and so became <span title="irrité">sore</span>, irritable, ill-tempered, and self-afflicting in the desolation of her woman's nature. Now the sweetness of that  </br></br>sick child, looking ever to her in love, patience, and gratitude, was as honey to her soul, and she carried her in her heart as well as in her arms, a precious  </br></br>burden. As for Joe Thompson, there was not a man in all the neighborhood who drank daily of a more precious  wine of life than he. An angel had come into </br></br>his house, disguised as a sick, helpless, and miserable child, and filled all its dreary chambers with the sunshine of love.</br></br>
+<h3 id="show7">Fear of failure</h3>
+<p id ="p7">
+Fear of failure is a common thing amid plenty of people across the world.It is a common nature amid people regardless of their age and it has its own </br></br>positive effects and negative effects. One of the most notable positive effects of fear of failure is that it lets you to prepare well.It also allows you to think a </br></br>lot before you take an action and make wise decision. One of the most notable negative effects of fear of failure is that it <span title="empêcher">hinders</span> you from doing things.</br></br> You will lose the freedom and courage to take risks that are necessary to find success in your personal,professional and social life.We all have fear </br></br>towards the failure. Even the <span title ="riche">wealthiest</span> people of all time have once possessed this fear of failure.
+We don't like to come to pass failure in our life whether </br></br>it is in our personal, social or professional life. None of the people will like failure in exams, sports games, personal life, relationships, etc.</br></br>
+
+How to Deal With Your Fear of Failure</br></br>
+
+However, fear of failure is not a great sign as it will deny you from expressing yourself and also prevent you from attaining success in your life. People</br></br> mainly fear failure as they lack confidence and lack of faith in their abilities.People who are confident and have faith in their abilities will never think about </br></br>failure.A number of people experience excessive fear of failure on account of the shy, ridicule, blame, mockery, scolding, etc, one have to deal with as a </br></br>result of the failure.
+Here are some top tips that help people to deal effective with their fear of failure:</br></br>
+
+1. Think More Positively
+One of the essential things that you should possess in order to triumph over fear of failure is thinking positively. Positive thinking is</br></br> a really dominant method to erase fear of failure and build a mind packed with confidence.You can attain self-confidence and deactivate diffidence through </br></br>thinking positively. Positive thinking is a great
+ way to change your thoughts and make your negative thoughts into positive thoughts.
+Positive thinking is a </br></br>psychological and emotional approach that helps people across the world to concentrate on the better or hopeful side of life.
+ It allows you to look forward </br></br>to positive results. In order to overcome fear of failure, you need to take on the attitude of positive thinking in the whole thing you do daily.</br></br>
+
+2. Avoid Negative Thoughts           
+
+Negative thinking is another reason why people fear of failure. Therefore, if you would like to triumph over fear of failure, you</br></br> have to make sure to avoid negative thoughts
+ from your life.Remember that negative thoughts can never do any help for you and will not give you any </br></br>positive results. It can only destroy you and make you diffident.
+So, you should always ensure to create positive thoughts because positive thoughts are able </br></br>to enhance your skills, readiness to take risk, improve your self confidence,
+develop faith in your abilities, increase your health, and get better your work.</br></br>
+
+3. Identify the Cause of Fear
+
+You can avoid the fear of failure by means of identifying the cause of fear.There will be many reasons for you to become </br></br>afraid of failure. So, you have got to identify the 
+actual cause for the fear and it will help you to eradicate the issue sooner or later.Sit down, take your time </br></br>and ask yourself when your fear of failure was formed, and what
+an actual reason behind it was. Remember that fear of failure can come from parents </br></br>being overly protective, your negative attitude, lack of confidence, shocking incidents,
+shy and timidity in your skills, etc.</br></br>
+
+ 4. Don't Stress Yourself
+
+A lot of people have the tendency to give too much stress on you. If you give too much stress on you, you will fail to act smoothly or </br></br>as you expected.
+Stress can create fear in you and it will lead you to keep away from things rather than being active in it.Hence,make your actions light</br></br> and give yourself what you can do.Don't stress yourself too much since no matter how favorable or bad the situation is,you will end up in gaining </br></br>fear of failure.</br></br>
+
+ 5. Stop Trying So Hard
+
+You have to stop trying so hard to overcome from the fear of failure. A lot of people used to try so hard to achieve their goals and</br></br> objectives which is a very bad habit. 
+You can make a great deal of change in your life by stopping trying too hard.Trying so hard will guide you to get too </br></br>stressed, troubled and become fearful about failure.
+ Stop trying so hard because it will let you to clear your mind, rejuvenate your energy and refocus on </br></br>more focused, productive pursuits.</br></br>
+
+ 6. Get Experts Help
+
+A lot of people are indifferent when it comes to getting help from experts. Help from experts is essential for you to find success in your</br></br> activities. It is also applicable if you
+ are aiming to trounce your fear of failure.There are a lot of people around you who are capable of helping you with </br></br>useful tips and advice. You should not ignore them and
+ their assistance because they can provide you the perfect way to get away from your fear</br></br> of failure effectively.</br></br>
+
+ 7. Free Your Mind
+
+You can overcome your fear of failure through freeing your mind. Free mind denotes that you are free from all sorts of troubles,</br></br> negative thoughts, stress and pressure.
+ If your mind is full of thoughts, negative thoughts, un-optimistic attitude, etc.
+Freeing your mind will allow you to </br></br>release yourself from negative emotions and thoughts which will eventually guide you to succeed over your fear of failure.</br></br>
+
+Other Important Tips</br></br>
+
+There are many other tips that will help you to prevail over your fear of failure in a most effective way such as:</br></br>
+
+    Change your point of view because if you think your actions are going to be failure, then, it will end up in failure. So, change your perceptive.</br></br>
+    Eliminate negative beliefs and it will help you to run away from your fear because you have the option to thing about your positive sides.</br></br>
+    Accept that you are not perfect and be ready to accept your failure with confidence.</br></br>
+    Accept you inabilities and lack of knowledge which will help you to understand your strong pints and weak points.</br></br>
+    Learn to say NO to the things that are impossible for you to do. Or, accept the fact that you cannot do everything in the world.</br></br>
+ny behavior, thought, emotion, or action that holds you back.</br></br>
+    Trust your abilities, skills and knowledge.</br></br>
+    Always create a mind to accept failures as a better learning experience for you.</br></br>
+    Evaluate your approaches and make sure to set up an approach that makes you more at ease.</br></br>
+    Avoid the thinking that you are a loser and always put up a strong mind that tells you that you are a better person.</br></br>
+    Effectively deal with feelings such as disappointment, anger, frustration, sadness, regret, and puzzlement.</br></br>
+    The fear of failure is possibly the biggest thing that holds people below their potential. So, learn from your mistakes to put a stop to failure.</br></br>
+</p >
+   
+   <h3 id ="show8"> Abort aThe Cockerel : </h3>
+
+<p id ="p8">
+
+In a pretty little house, there once lived a <span title="soigné">neat</span> old widow who wore the cleanest caps and the finest kerchief you ever saw in your life.</br></br> She was very fond of washing and <span title ="lavage">
+scrubbing </span>and baking<span title ="cuisson"> and </span>sewing! Everybody who knew her used to say that she was the most hard-working </br></br>lady they had ever seen and an example to the whole village.
+This good woman had two little girls living with her whom she was always trying to make </br></br>as clean and neat as herself. She taught them how to <span title="pétrir">knead</span> bread, cook rice and meals.
+ She also taught them to spin fine thread on their spinning wheels.</br></br> Every morning, the moment the big brown cockerel in the yard gave his first <span title ="صياح الديك">crow</span>, she would get out of
+ the bed, go to the room where the little girls slept </br></br>and shake them until they woke.</br></br>
+"Get up! Get up!" she would say. "Don't you hear the cockerel crowing outside? The Sun will be shining over the hill in a moment. Nobody in this house </br></br>must stay in bed when
+ once the cockerel has crowed!" The little girls were always dreadfully sleepy and did not want to get up in the least.</br></br> But the <span title ="actif">bustling</span> old woman would stand over them, 
+till they got out of bed, <span title="bâillements">yawning </span>and blinking their eyes. Then she would start her household <span title="corvées">chores</span>,</br></br> telling them to wash and dress and to follow her into the kitchen as quickly
+ as they could.Now one of the things the little girls had to do was to feed the </br></br>poultry - the big brown cockerel among the others. He was rather a greedy bird and always ate a lot 
+of the scraps and corn that were thrown on the </br></br>ground. The old lady would stand at the kitchen door to watch the feeding and the more the cockerel ate, the better she was pleased.</br></br>
+"Is he not a fine bird?" she would say to the little girls. "Be sure and give him the best bits of food. If he doesn't crow we would always be oversleeping, </br></br>for there would be nobody 
+to wake us in the morning!"Then the little girls would look at each other under their eyelashes and <span title="قطب">pout</span>.</br></br> For they both hated the brown bird which tried to wake everybody at sunrise
+ when it would be so much nicer to sleep on until eight or nine o clock.</br></br>
+
+At last, one day, when the cockerel seemed to have crowed even earlier than usual, they decided they could stand it no longer.</br></br> They waited until their mother had gone to market… then they caught the poor brown cockerel and <span title="tordre">wrung </span>his neck! After that they buried him as quickly </br></br>as they could in the field on the other side of the <span title="clôture">fence</span>. Then, rather frightened at what they had done, they set to work to cook for the lunch.</br></br>
+
+
+The lady came home and found that her dear bird was missing. She searched for the cockerel everywhere while the girls also pretended as much so that </br></br>their mother might not suspect them.
+
+
+The lady missed the cockerel very much.</br></br> But when they went to bed, however, they the girls told each other how glad they were that they had killed the horrid bird at last.</br></br>
+
+
+"Now" they said to each other, "we shall have a little peace.</br></br> How lovely it will be to sleep as long as we want to with no crowing to wake our mother in the morning!"</br></br>
+
+
+They cuddled down into their pillows and fell asleep. But in the middle of the night or so it seemed to them, the old lady came to their bedside in her </br></br>nightcap, carrying a lighted candle!</br></br>
+
+
+'Get up! Get up!" she said to them all in a bustle. We have no cockerel to wake us now and it will never do to oversleep! </br></br>The dawn has not broken yet…I know! Bui it will break presently and without the crowing in the yard, we shall not even know that day has come.</br></br> Get up! Get up! Follow me into the kitchen as quickly as possible!"
+
+
+How sad and disappointed those little maidens were! </br></br>But they were obliged to do as their mother told them. So they got up and stalled scrubbing and washing and spinning by candle light,</br></br> sleepier than they had ever been in their lives.
+
+
+And as the old lady has been too fond of that cockerel to wish to buy another to take his place, </br></br>she went on waking the little girls in the middle of the night. </br></br>She was insisting on getting them up to work as no single minute of the coming daylight should be wasted.</br></br>
+
+
+Oh, how those two blinking, yawning little girls wished that they had never killed the big brown cockerel!</br></br>
+
+
+<span id="aa">MORAL : As you sow, so you reap.</span>
+
+
+</p>
+
+ <h3 id ="show5">A Dish of Ice Cream</h3>
+<p id ="p5">
+In the days when an ice cream sundae cost much less, a 10 year old boy entered a hotel coffee shop and sat at a table. </br></br>
+A waitress put a glass of water in front of him.</br></br>
+“How much is an ice cream sundae?”</br></br>
+“50 cents,” replied the waitress.</br></br>
+The little boy pulled his hand out of his pocket and studied a number of coins in it.</br></br>
+
+“How much is a dish of plain ice cream?” he inquired.</br></br>
+Some people were now waiting for a table and the waitress was a bit impatient.</br></br>
+“35 cents,” she said brusquely.
+The little boy again counted the coins. “I’ll have the plain ice cream,” he said.</br></br>
+The waitress brought the ice cream, put the bill on the table and walked away.</br></br>
+The boy finished the ice cream, paid the cashier and departed.</br></br>
+When the waitress came back, she began wiping down the table and then swallowed hard at what she saw.</br></br>
+There, placed neatly beside the empty dish, were 15 cents – her tip.</p>
+<h3 id ="show6"> Colonel Sanders | Kentucky Fried Chicken</h3>
+<p id ="p6">Once, there was an older man, who was broke, living in a tiny house and owned a beat up car. He was living off of $99 social security checks.</br></br> At 65 years of age, he decide things had to change. So he thought about what he had to offer. His friends raved about his chicken recipe.</br></br> He decided that this was his best shot at making a change.
+
+He left Kentucky and traveled to different states to try to sell his recipe.</br></br> He told restaurant owners that he had a mouthwatering chicken recipe.</br></br> He offered the recipe to them for free, just asking for a small percentage on the items sold.</br></br> Sounds like a good deal, right?
+
+Unfortunately, not to most of the restaurants. He heard NO over 1000 times.</br></br> Even after all of those rejections, he didn’t give up. He believed his chicken recipe was something special.</br></br> He got rejected 1009 times before he heard his first yes.
+
+With that one success Colonel Hartland Sanders changed the way Americans eat chicken.</br></br> Kentucky Fried Chicken, popularly known as KFC, was born.</br></br>
+
+<span id="aa">Remember, never give up and always believe in yourself in spite of rejection.</span> </p>
+<h3 id="show9">Value</h3>
+
+<p id="p9">A popular speaker started off a seminar by holding up a $20 bill. A crowd of 200 had gathered to hear him speak. He asked,</br></br> “Who would like this $20 bill?”200 hands went up.</br></br>
+
+He said, “I am going to give this $20 to one of you but first, let me do this.” He crumpled the bill up.</br></br>
+
+He then asked, “Who still wants it?”</br></br>
+
+All 200 hands were still raised.</br></br>
+
+“Well,” he replied, “What if I do this?” Then he dropped the bill on the ground and stomped on it with his shoes.</br></br>
+
+He picked it up, and showed it to the crowd. The bill was all crumpled and dirty.</br></br>
+
+“Now who still wants it?”</br></br>
+
+All the hands still went up.
+
+“My friends, I have just showed you a very important lesson.</br></br> No matter what I did to the money, you still wanted it because it did not decrease in value.</br></br> It was still worth $20. Many times in our lives, life crumples us and grinds us into the dirt.</br></br> We make bad decisions or deal with poor circumstances. We feel worthless. </br></br>But no matter what has happened or what will happen, you will never lose your value. You are special – Don’t ever forget it!</p>
+<h3 id="show10">أبيات1</h3>
+<p id="p10">
+لقيس المجنون ؛<br></br>
+أعد الليالي ليلة بعد ليلة - وقد عشت دهرا لا أعد اللياليا<br></br>
+وأخرج من بين البيوت لعلني - أحدث عنك النفس بالليل خاليا<br></br>
+يمينا اذا كانت يمينا وان تكن - شمالا ينازعني الهوى عن شماليا<br></br>
+وقد يجمع الله الشتيتين بعدما - يظنان كل الظن أن لاتلاقيا<br></br>
+</br></br>
+
+
+وقال أبو العتاهية ؛</br></br>
+أيا من لي بأنسك يا أخيا - ومن لي أن أبثك ما لديا”</br></br>
+“كفى حزنا بدفنك ثم اني - نفضت تراب قبرك عن يديا”</br></br>
+“بكيتك يا أخي بدر عيني - فلم يغن البكاء عليك شيا”</br></br>
+“وكانت في حياتك لي عظات - وأنت اليوم أوعظ منك حيا”</br></br>
+</p>
+<h3 id="show11">أبيات2</h3>
+<p id="p11">
+
+
+قال ابو العتاهية ؛</br></br>
+يا خاطب الدنيا الى نفسها ** تنح عن خطبتها تسلم</br></br>
+ان التي تخطب غرارة ** قريبة العرس من المأتم</br></br></br></br>
+
+وما كنت ممن يدخل العشق قلبه. ولكن من يبصر جفونك يعشق</br></br>
+————–</br></br>
+
+إن مشقة الطاعة تذهب ويبقى ثوابها</br></br>
+وإن لذة المعاصي تذهب ويبقى عقابها</br></br>
+
+————–</br></br>
+قال مسلم بن قتيبة للشعبي : “ ما تشتهي ؟ “</br></br>
+قال : “ أعز مفقود وأهون موجود”</br></br>
+قال : “ يا غلام أسقه ماء ! “
+
+
+</p>
+<h3 id="show12">أبيات3</h3>
+<p id="p12">
+
+إِذا المَرءُ لَم يُدنَس مِنَ اللُؤمِ عِرضُهُ - - فَكُلُّ رِداءٍ يَرتَديهِ جَميل</br></br>
+وَإِن هُوَ لَم يَحمِل عَلى النَفسِ ضَيمَها - - فَلَيسَ إِلى حُسنِ الثَناءِ سَبيلُ</br></br>
+تُعَيِّرُنا أَنّا قَليلٌ عَديدُنا - - فَقُلتُ لَها إِنَّ الكِرامَ قَليلُ</br></br>
+وَما قَلَّ مَن كانَت بَقاياهُ مِثلَنا - - شَبابٌ تَسامى لِلعُلى وَكُهولُ</br></br>
+وَما ضَرَّنا أَنّا قَليلٌ وَجارُنا - - عَزيزٌ وَجارُ الأَكثَرينَ ذَليلُ</br></br>
+السموأل
+</p>
+<p>
+
+</p>
+ </body>
+</html>
