@@ -1,213 +1,119 @@
-<<div class="single">
-  <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.18.1" />
+<head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans|Marcellus+SC'>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
-    <link rel="stylesheet" href="https://ahmedbouhl.github.io/books/css/styles.css">
-    <link rel="stylesheet" href="https://ahmedbouhl.github.io/books/css/custom.css">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://ahmedbouhl.github.io/books//index.xml">
+<style>
+         #mycanvas{border:1px  solid red;}
+      </style>
 
-    
-    <title>good - site de bouhlla</title>
-    <meta property='og:title' content="good - site de bouhlla">
-    <meta property="og:type" content="article">
-    
+</style>
+<script>
+function cclick(){
+j=0;
+document.getElementById("demo").innerHTML =fruits.length;
+p=p+7;
+ctx.beginPath();
+ctx.rect(10, 14, 1300, 300);
+ctx.fillStyle = "white";
+ctx.fill();
+while(i<p){
+if(i==fruits.length){i=0;p=0;break;}
 
-    <meta property="og:url" content="https://ahmedbouhl.github.io/books/post/nice/">
-    
-    <meta property="og:image" content="https://ahmedbouhl.github.io/books/images/chats.jpg">
-
-  </head>
-
-  <body>
-
-    <header class="site">
-      <div class="title"><a href="https://ahmedbouhl.github.io/books/">site de bouhlla</a></div>
-    </header>
-
-    <div class="container site">
+ctx.fillStyle = "blue";
+ctx.fillText(fruits[i], 10, 30+j*35);
+i=i+1;
+j=j+1;}
+ctx.fillText(Math.floor(i/7), 10, 30+7*35);
+var img = document.getElementById("scream");
+  ctx.drawImage(img, 90, 130, 50, 60, 1000, 190, 100, 110);
 
 
+}
 
-  <div class="row">
-    <div class="col-sm-9">
+</script>
+</head>
 
-      <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
+<body>
+<div id="demo">aaa</div>
+<button onclick="cclick()"> -----> </button>
 
-        <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://ahmedbouhl.github.io/books/"/>
-        <meta itemprop="dateModified" content="2017-02-05T23:17:53&#43;00:00">
-        <meta itemprop="headline" content="good">
-        <meta itemprop="description" content="الحب شيء جميل جدا هيا بنا نلعب">
-        <meta itemprop="url" content="https://ahmedbouhl.github.io/books/post/nice/">
-        <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-          <meta itemprop="url" content="https://ahmedbouhl.github.io/books/images/chats.jpg" />
-          <meta itemprop="width" content="800">
-          <meta itemprop="height" content="800">
-        </div>
-        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-          <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-            <meta itemprop="url" content="https://ahmedbouhl.github.io/books/images/logo.jpg">
-            <meta itemprop="width" content="100">
-            <meta itemprop="height" content="100">
-          </div>
-          <meta itemprop="name" content="site de bouhlla">
-        </div>
-        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
-          <meta itemprop="name" content="Shekhar Gulati">
-        </div>
-
-        <div class="image" style="background-image: url(https://ahmedbouhl.github.io/books/images/chats.jpg);"></div>
-
-        <header class="article-header">
-          <time itemprop="datePublished" pubdate="pubdate" datetime="2017-02-05T23:17:53&#43;00:00">Sun, Feb 5, 2017</time>
-          <h1 class="article-title">good</h1>
-        </header>
-
-        <div class="article-body" itemprop="articleBody">
-          <p>الحب شيء جميل جدا
-هيا بنا نلعب</p>
-
-        </div>
+<canvas id = "mycanvas" width = "1250" height = "300"></canvas>
+<img id="scream" width="22" height="27" src="scream.jpg" alt="The Scream">
 
 
-        <aside>
-          
+<script>
+j=0;
+i=0;
+p=7;
+s1="There was once a widow who had two daughters - one of whom was pretty and industrious, whilst the other was ";
+s2="ugly and idle.But she was much fonder of the ugly and idle one, because she was her own daughter.  And the other, ";
+s3=" who was a step-daughter,was obliged to do all the work, and be the cinderella of the house.Every day the poor girl ";
+s4="had to sit by a well, in the highway,and spin and spin till her fingers bled.Now it happened that one day the shuttle  ";
+s5="was marked with her blood, so she dipped it in the well,to wash the mark off, but it dropped out of her hand and fell  ";
+s6="to the bottom.  She began to weep, and ran to her step-mother and told her of the mishap.  But she scolded her sharply,";
+s7="and was so merciless as to say, since you have let the shuttle fall in,you must fetch it out again.So the girl went back to ";
+s8="the well, and did not know what to do.And in the sorrow of her heartshe jumped into the well to get the shuttle.   ";
+s9="She lost her senses.  And when she awoke and came toherself again, she was in a lovely meadow where the sun ";
+s10="was shining and many thousands of flowers were growing.  Across this meadow she went, and at last came to ";
+s11="a baker's oven full of bread, and the bread cried out, oh, take me out. Take me out. Or I shall burn.  I have been baked ";
+s12="a long time. So she went up to it, and took out all the loaves one after another with the bread-shovel. After that she went ";
+s13 ="on till she came to a tree covered with apples, which called out to her,  oh, shake me. Shake me. We apples are all ripe.";
+s14="So she shook the tree till the apples fell like rain,and went on shaking till they were all down, and when she had gathered ";
+s15="them into a heap, she went on her way.At last  she came to a little house, out of which an old woman peeped.";
+s16="  But she had such large teeth that the girl was frightened,and was about to run away. But the old woman called out to her, ";
+s17=" what are you afraid of, dear child.  Stay with me. If you will do all the workin the house properly, you shall be the better for it.";
+s18=" Only you must take care to make my bed well,and shake it thoroughly till the feathers fly - for then there is snow on the earth.";
+s19="I am mother holle. As the old woman spoke so kindly to her, the girl took courage and agreed to enterher service.  ";
+s20="She attended to everything to the satisfaction of her mistress, and always shook her bed so vigorously that the feathers flew"; 
+s21="about like snow-flakes.  So she had a life with her.  Never an angry word.  And to eat she had boiled or roast meat every day.";
+s22="She stayed some  time with mother holle, before she became sad. At first she did not know what was the matter with her, ";
+s23="but found at length that it was home-sickness.Although she was many thousand times better off here than at home, still she ";
+s24="had a longing to be there.  At last she said to the old woman,I have a longing for home, and however well off I am down here,";
+s25="I cannot stay any longer.  I must go up again to my own people. Mother holle said,I am pleased that you long for your home ,";
+s26="again and as you have served me so truly,I myself will take you up again.Thereupon she took her by the hand and led her to a  ";
+s27="large door.The door was opened,and just as the maiden was standing beneath the doorway, a heavy shower of golden rain fell,";
+s28=" and all the gold clungto her, so that she was completely covered over with it. You shall have that because you have been so";
+s29=" industrious, said mother holle, and at the same time she gave her back the shuttle which she had let fall into the well.</p>";
+s30="There upon the door closed, and the maiden found herself up above upon the earth ,not far from her mother's house.";
+s31=" And as she went into the yard the cock was sitting on the well, and cried ";
+s32="cock-a-doodle-doo.";
+s33="    Your golden girl's come back to you.";
+s34="So she went in to her mother, and as she arrived thus covered with gold, she was well received, both by her and her sister.";
+s35="The girl told all that had happened to her,and as soon as the mother heard how she had come by so much wealth,she was very";
+s36="anxious to obtain the same good luck for the ugly and lazy daughter.She had to seat herself by the well and spin.And in order ";
+s37="that her shuttle might be stained with blood, she stuck her hand into a thorn bush and pricked her finger.  Then she threw her ";
+s38="shuttle into the well, and jumped in after it.She came, like the other, to the beautiful meadow and walked along the very same"; 
+s39="path.When she got to the oven the bread again cried, oh,take me out.Take me out.Or I shall burn.I have beenbaked a long time.";
+s40="But the lazy thing answered, as if I had any wish to make myself dirty.And on she went.Soon she came to the apple-tree, which"; 
+s41="cried, oh, shake me. Shake me. We apples are all ripe.  But she answered, I like that.  One of you might fall on my head, ";
+s42="and so went on.  When she came to mother holle's house she was not afraid, for she had already heard of her big teeth, and";
+s43="she hired herself to her immediately. The first day she forced herself to work diligently, and obeyed mother holle when she ";
+s44="told her to do anything, for she was thinking of all the gold that she would give her.  But on the second day she began to be";
+/*  lazy, and on the third day still more so, and then
+she would not get up in the morning at all.  Neither did she make
+mother holle's bed as she ought, and did not shake it so as to
+make the feathers fly up.  Mother holle was soon tired of this, and
+gave her notice to leave.  The lazy girl was willing enough to go,
+and thought that now the golden rain would come.  Mother holle led
+her also to the great door, but while she was standing beneath it,
+instead of the gold a big kettleful of pitch was emptied over her.
+That is the reward for your service, said mother holle, and shut
+the door.
+So the lazy girl went home, but she was quite covered with pitch,
+and the cock on the well, as soon as he saw her, cried out -
+     cock-a-doodle-doo.
+     Your dirty girl's come back to you.
+But the pitch clung fast to her, and could not be got off as long
+as she lived.";
+*/
+var fruits = [s1, s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16 ,s17,s18,s19,s20,s21,
+s22,s23,s24,s25,s26 ,s27,s28,s29,s30,s31,s32,s33,s34,s35,s36,s37,s38,s39,s40,s41,s42,s43,s44,"end"];
+var c = document.getElementById("mycanvas");
+var ctx = c.getContext("2d");
+ctx.font = "22px Arial";
 
-          
-          
-          <div id="disqus_thread"></div>
-          <script type="text/javascript">
-(function() {
-  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-  var disqus_shortname = 'your disqus shortname';
-  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-          </script>
-          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-          <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-          
-          
-        </aside>
-
-      </article>
-    </div>
-
-    <div class="col-sm-3">
-      <aside class="site">
-
-  
-  <div class="section">
-    <header><div class="title">TableOfContents</div></header>
-    <div class="list-default"></div>
-  </div>
-  
-
-  
-
-  <div class="section">
-    <header><div class="title">LatestPosts</div></header>
-    <div class="content">
-      
-      <div class="sm"><article class="li">
-  <a href="https://ahmedbouhl.github.io/books/post/bien/" class="clearfix">
-    <div class="image" style="background-image: url(https://ahmedbouhl.github.io/books/images/file.jpg);"></div>
-    <div class="detail">
-      <time>Tue, Feb 14, 2017</time>
-      <h2 class="title">bien to great</h2>
-      <div class="summary">I read Good to Great in January 2016. An awesome read sharing detailed analysis on how good companies became great.</div>
-    </div>
-  </a>
-</article>
-</div>
-      
-      <div class="sm"><article class="li">
-  <a href="https://ahmedbouhl.github.io/books/post/good/" class="clearfix">
-    <div class="image" style="background-image: url(https://ahmedbouhl.github.io/books/images/chats.jpg);"></div>
-    <div class="detail">
-      <time>Sun, Feb 5, 2017</time>
-      <h2 class="title">good</h2>
-      <div class="summary">I read Good to Great in January 2016. An awesome read sharing detailed analysis on how good companies became great.</div>
-    </div>
-  </a>
-</article>
-</div>
-      
-      <div class="sm"><article class="li">
-  <a href="https://ahmedbouhl.github.io/books/post/nice/" class="clearfix">
-    <div class="image" style="background-image: url(https://ahmedbouhl.github.io/books/images/portm.jpg);"></div>
-    <div class="detail">
-      <time>Sun, Feb 5, 2017</time>
-      <h2 class="title">good</h2>
-      <div class="summary">الحب شيء جميل جدا هيا بنا نلعب</div>
-    </div>
-  </a>
-</article>
-</div>
-      
-      <div class="sm"><article class="li">
-  <a href="https://ahmedbouhl.github.io/books/post/" class="clearfix">
-    <div class="image" style="background-image: url(https://ahmedbouhl.github.io/books/images/default.jpg);"></div>
-    <div class="detail">
-      <time>Tue, Feb 14, 2017</time>
-      <h2 class="title">Posts</h2>
-      <div class="summary"></div>
-    </div>
-  </a>
-</article>
-</div>
-      
-      <div class="sm"><article class="li">
-  <a href="https://ahmedbouhl.github.io/books/" class="clearfix">
-    <div class="image" style="background-image: url(https://ahmedbouhl.github.io/books/images/default.jpg);"></div>
-    <div class="detail">
-      <time>Tue, Feb 14, 2017</time>
-      <h2 class="title">site de bouhlla</h2>
-      <div class="summary"></div>
-    </div>
-  </a>
-</article>
-</div>
-      
-    </div>
-  </div>
-
-  
-  <div class="section taxonomies">
-    <header><div class="title">category</div></header>
-    <div class="content">
-      
-    </div>
-  </div>
-  
-  <div class="section taxonomies">
-    <header><div class="title">tag</div></header>
-    <div class="content">
-      
-    </div>
-  </div>
-  
-
-</aside>
-
-    </div>
-
-  </div>
-
-      
-   <footer class="site">
- fdr
-</footer>
-  
-
-</div>
-
-      
-     
+while(i<p){
+ctx.fillText(fruits[i], 10, 30+j*30);
+i=i+1;j=j+1;}
+</script>
+</body>
+</html>
