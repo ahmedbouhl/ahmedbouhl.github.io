@@ -10,7 +10,7 @@
 function cclick(){
 j=0;
 document.getElementById("demo").innerHTML =fruits.length;
-p=p+7;
+p=p+14;
 ctx.beginPath();
 ctx.rect(10, 14, 1300, 800);
 ctx.fillStyle = "white";
@@ -22,7 +22,7 @@ ctx.fillStyle = "blue";
 ctx.fillText(fruits[i], 10, 30+j*35);
 i=i+1;
 j=j+1;}
-ctx.fillText(Math.floor(i/7), 10, 30+7*35);
+ctx.fillText(Math.floor(i/14), 10, 30+14*35);
 var img = document.getElementById("scream");
   ctx.drawImage(img, 90, 130, 50, 60, 1000, 190, 100, 110);
 
